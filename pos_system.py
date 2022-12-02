@@ -1,6 +1,7 @@
 from datetime import datetime
 
 
+# Función que permite que el usuario elija un tipo de pan y guarda el precio del mismo según la opción elegida.
 def tipo_pan_chosen():
     tipo_pan = int((input('> Elige la opción 1, 2, 3 o 4: ')))
     if tipo_pan == 1:
@@ -16,9 +17,7 @@ def tipo_pan_chosen():
         tipo_pan_chosen()
     return tipo_pan
 
-# validar porque cuando elijo varias opciones erroneas y luego la opcion correcta arroja un calculo erroneo
-
-
+# Función que calcula el costo del pan SIN descuento
 def costo_pan_normal():
     costo = tipo_pan_chosen()
     cantidad_pan = int(input('> Cantidad de panes: '))
@@ -26,6 +25,7 @@ def costo_pan_normal():
     print(f'El precio de {cantidad_pan} panes es de ${costo}.')
 
 
+# Función que calcula el costo del pan CON descuento
 def costo_pan_dscto():
     costo = tipo_pan_chosen()
     cantidad_pan = int(input('> Cantidad de panes: '))
@@ -37,7 +37,7 @@ def costo_pan_dscto():
 > El dscto por la hora fue de ${ahorro}.
 > El costo real hubiera sido de ${costo}""")
 
-
+# Mensaje principal de Inicio
 print('\t<Panadería Deliccie>')
 
 hora_actual = datetime.now().time()
