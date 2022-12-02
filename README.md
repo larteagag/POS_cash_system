@@ -1,4 +1,4 @@
-# Cashr Register System 🥐
+# POS - Cash Register System 🥐
 Sistema que simula una máquina de cobros de pan en una panadería.
 
 Instrucciones:
