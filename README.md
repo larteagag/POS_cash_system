@@ -1,5 +1,5 @@
 # Bakery POS System 🥐
-Sistema que simula una máquina de cobros de pan en una panadería.
+Mini-Sistema que simula una máquina de cobros de pan en una panadería.
 
 Instrucciones:
 
